@@ -1,5 +1,4 @@
-"use client";
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3DCard";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";

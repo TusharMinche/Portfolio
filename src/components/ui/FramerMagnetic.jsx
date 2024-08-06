@@ -1,4 +1,3 @@
-'use client';
 import { motion } from 'framer-motion';
 import { useRef, useState } from 'react';
 
@@ -14,7 +13,7 @@ const FramerMagnetic = ({ children }) => {
         setPosition({ x: middleX, y: middleY })
     };
 
-    const handleMouseLeave = (e) => {
+    const handleMouseLeave = () => {
         setPosition({ x: 0, y: 0 })
     };
 
